@@ -1,0 +1,87 @@
+.dashboard{
+    max-width: 100%;
+}
+
+.updateOrderForm {
+    text-align: center;
+    margin: 5vmax 0;
+    padding: 3vmax;
+    background-color: white;
+}
+
+.updateOrderForm>h1{
+    font: 300 2vmax "Roboto";
+    color: rgba(170, 157, 157, 0.976);
+}
+
+.updateOrderForm>div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.updateOrderForm>div>select {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    margin: 1.2vmax 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 300 0.9vmax cursive;
+    outline: none;
+}
+
+.updateOrderForm>div>svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6vmax;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+
+#updateOrderBtn {
+    background-color: tomato;
+    border: none;
+    padding: 0.8vmax;
+    width: 100%;
+    transition: all 0.5s;
+    color: white;
+    font: 300 0.9vmax 'Roboto';
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+}
+
+#updateOrderBtn:hover {
+    background-color: rgb(179, 66, 46);
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    .updateOrderForm {
+        padding: 5vmax;
+        width: 100%;
+    }
+
+    .updateOrderForm>div>select{
+        padding: 2.5vmax 5vmax;
+        font: 300 1.7vmax cursive;
+    }
+
+    .updateOrderForm>div>svg {
+        font-size: 2.8vmax;
+    }
+
+    .updateOrderForm>div {
+        margin: 1vmax;
+    }
+
+    #updateOrderBtn {
+        font: 300 1.9vmax "Roboto";
+        padding: 1.8vmax;
+    }
+}

@@ -1,0 +1,20 @@
+.menuBurger{
+    height: 4.5vmax !important;
+}
+
+.speedDial{
+   position: fixed;
+   right: 3vmax;
+   top: 3vmax;
+}
+
+.speedDialIcon{
+   width: 56px;
+   height: 56px;
+   border-radius: 100%;
+}
+
+.MuiFab-primary {
+   color: #fff;
+   background-color: #f2f2f2 !important;
+}

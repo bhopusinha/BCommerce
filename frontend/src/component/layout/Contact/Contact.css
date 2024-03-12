@@ -1,0 +1,39 @@
+.contactContainer {
+    width: 100%;
+    position: absolute;
+    background-color: rgb(251, 251, 251);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contactContainer>a {
+    width: 30rem;
+  padding: 2vmax 1vmax;
+  text-align: center;
+  font: 300 1.6vmax cursive;
+  background-color: #eed7b5;
+  border-radius: 2vmax;
+  text-decoration: none;
+  color: #171515; 
+  animation: Bhgg 0.7s linear alternate;
+}
+
+@keyframes Bhgg {
+    from{
+        transform: translateX(-3vmax);
+    }
+    to{
+        transform: translateX(1vmax);
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .contactContainer>a{
+        width: 70%;
+    }
+}
